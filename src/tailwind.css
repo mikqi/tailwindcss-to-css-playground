@@ -1,0 +1,5 @@
+/* Utilities is Optional, it will generate utilities too */
+/* @tailwind utilities; */
+.btn {
+  @apply bg-purple-100 text-purple-700 text-base font-semibold px-6 py-2 rounded-lg hover:bg-purple-200
+}

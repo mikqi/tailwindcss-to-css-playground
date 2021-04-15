@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-html-css-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n w: npm:watch:*",
+    "watch:style": "postcss src/tailwind.css -o src/build.css --watch --verbose",
+    "watch:html": "live-server src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
